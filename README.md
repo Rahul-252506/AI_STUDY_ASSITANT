@@ -1,4 +1,4 @@
-\# 🤖 AI Study \& Productivity Assistant
+\ 🤖 AI Study \& Productivity Assistant
 
 
 
@@ -14,41 +14,41 @@ The application uses Google's Gemini API to help students understand and revise 
 
 
 
-\## 🚀 Features
+\ 🚀 Features
 
 
 
-\### 📝 Summarization
+\# 📝 Summarization
 
 Converts lengthy study material into concise bullet-point summaries.
 
 
 
-\### 💡 Explanation
+\# 💡 Explanation
 
 Explains difficult concepts in simple language using examples and analogies where appropriate.
 
 
 
-\### ❓ Question Generation
+\# ❓ Question Generation
 
 Generates 10 questions from the provided study material with varying difficulty levels from easy to hard, along with answers.
 
 
 
-\### 📚 Study Notes
+\# 📚 Study Notes
 
 Converts study material into structured notes containing key concepts, definitions, examples and important exam points.
 
 
 
-\### 🔍 Ask Questions
+\# 🔍 Ask Questions
 
 Allows users to ask questions about uploaded study material or ask general questions without providing study material.
 
 
 
-\### 📄 Document Support
+\# 📄 Document Support
 
 Supports:
 
@@ -66,7 +66,7 @@ Supports:
 
 
 
-\## 🛠️ Technologies Used
+\ 🛠️ Technologies Used
 
 
 
@@ -90,7 +90,7 @@ Supports:
 
 
 
-\## 🏗️ Project Architecture
+\ 🏗️ Project Architecture
 
 
 
