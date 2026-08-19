@@ -1,5 +1,5 @@
 ````markdown
-# 🤖 AI Study & Productivity Assistant
+ 🤖 AI Study & Productivity Assistant
 
 An AI-powered study assistant developed as part of the Innovation Hacks AI Internship.
 
@@ -7,29 +7,29 @@ The application uses Google's Gemini API to help students understand and revise 
 
 ---
 
-## 🚀 Features
+ 🚀 Features
 
-### 📝 Summarization
+ 📝 Summarization
 
 Converts lengthy study material into concise bullet-point summaries.
 
-### 💡 Explanation
+ 💡 Explanation
 
 Explains difficult concepts in simple language using examples and analogies where appropriate.
 
-### ❓ Question Generation
+ ❓ Question Generation
 
 Generates 10 questions from the provided study material with varying difficulty levels from easy to hard, along with answers.
 
-### 📚 Study Notes
+ 📚 Study Notes
 
 Converts study material into structured notes containing key concepts, definitions, examples and important exam points.
 
-### 🔍 Ask Questions
+ 🔍 Ask Questions
 
 Allows users to ask questions about uploaded study material or ask general questions without providing study material.
 
-### 📄 Document Support
+📄 Document Support
 
 Supports:
 
@@ -40,7 +40,7 @@ Supports:
 
 ---
 
-## 🌐 Live Application
+ 🌐 Live Application
 
 The application is deployed and available online.
 
@@ -48,7 +48,7 @@ The application is deployed and available online.
 
 ---
 
-## 🛠️ Technologies Used
+ 🛠️ Technologies Used
 
 - Python
 - Streamlit
@@ -60,7 +60,7 @@ The application is deployed and available online.
 
 ---
 
-## 🏗️ Project Architecture
+ 🏗️ Project Architecture
 
 ```text
 User
@@ -92,7 +92,7 @@ Streamlit Interface
 
 ---
 
-## 🔄 How It Works
+ 🔄 How It Works
 
 1. The user uploads a PDF, DOCX or TXT file, or manually enters study material.
 2. The application extracts the text from the uploaded document.
@@ -105,7 +105,7 @@ Streamlit Interface
 
 ---
 
-## 📁 Project Structure
+ 📁 Project Structure
 
 ```text
 AI_STUDY_ASSISTANT/
