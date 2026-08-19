@@ -87,3 +87,36 @@ AI Response
  |
  v
 Streamlit Interface
+
+---
+
+## 🔄 How It Works
+
+1. The user uploads a PDF, DOCX or TXT file, or manually enters study material.
+2. The application extracts the text from the uploaded document.
+3. The user selects an AI feature such as Summarize, Explain, Generate Questions or Study Notes.
+4. Python constructs an appropriate prompt based on the selected feature.
+5. The prompt and study material are sent to the Gemini API.
+6. Gemini generates the requested response.
+7. The response is displayed through the Streamlit interface.
+8. Users can also ask questions without uploading study material.
+
+---
+
+## 📁 Project Structure
+
+```text
+AI_STUDY_ASSISTANT/
+│
+├── app.py
+├── ai_utils.py
+├── document_utils.py
+├── requirements.txt
+├── README.md
+├── .gitignore
+│
+└── Screenshot/
+    ├── main.png
+    ├── summary.png
+    ├── explain.png
+    └── questions.png
