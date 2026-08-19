@@ -1,3 +1,4 @@
+````markdown
 # 🤖 AI Study & Productivity Assistant
 
 An AI-powered study assistant developed as part of the Innovation Hacks AI Internship.
@@ -87,6 +88,7 @@ AI Response
  |
  v
 Streamlit Interface
+````
 
 ---
 
@@ -120,3 +122,139 @@ AI_STUDY_ASSISTANT/
     ├── summary.png
     ├── explain.png
     └── questions.png
+```
+
+> The `.env` file containing the Gemini API key is intentionally excluded from GitHub using `.gitignore`.
+
+---
+
+# 📸 Application Screenshots
+
+## 🖥️ Main Application
+
+The main interface allows users to upload study material in PDF, DOCX or TXT format, or manually enter text.
+
+![Main Application](Screenshot/main.png)
+
+---
+
+## 📝 AI Summarization
+
+The Summarize feature converts lengthy study material into concise and important points for easier revision.
+
+![AI Summary](Screenshot/summary.png)
+
+---
+
+## 💡 Concept Explanation
+
+The Explain feature helps students understand complex concepts by providing simpler, beginner-friendly explanations.
+
+![Concept Explanation](Screenshot/explain.png)
+
+---
+
+## ❓ Question Generation
+
+The Question Generation feature creates questions with varying difficulty levels and provides answers based on the uploaded study material.
+
+![Question Generation](Screenshot/questions.png)
+
+---
+
+## 🎥 Demo
+
+The project demonstration covers:
+
+* Document upload and text extraction
+* AI-powered summarization
+* Concept explanation
+* Question generation
+* Structured study notes
+* Interactive question answering
+* Input validation
+
+The complete demonstration video is included as part of the project submission.
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone the repository
+
+```bash
+git clone https://github.com/Rahul-252506/AI_STUDY_ASSITANT.git
+```
+
+### 2. Navigate to the project directory
+
+```bash
+cd AI_STUDY_ASSISTANT
+```
+
+### 3. Create a virtual environment
+
+```bash
+python -m venv venv
+```
+
+### 4. Activate the virtual environment
+
+Windows:
+
+```bash
+venv\Scripts\activate
+```
+
+### 5. Install dependencies
+
+```bash
+pip install -r requirements.txt
+```
+
+---
+
+## 🔐 Environment Variables
+
+Create a `.env` file in the project directory:
+
+```text
+GEMINI_API_KEY=YOUR_API_KEY
+```
+
+Replace `YOUR_API_KEY` with your Gemini API key.
+
+**Never commit the `.env` file to GitHub.**
+
+---
+
+## ▶️ Running the Application
+
+After activating the virtual environment and installing the dependencies, run:
+
+```bash
+streamlit run app.py
+```
+
+The application will open in your browser.
+
+---
+
+## 🔮 Future Improvements
+
+* OCR support for scanned PDFs
+* Retrieval-Augmented Generation (RAG)
+* Conversation history
+* Persistent study history
+* Flashcard generation
+* Voice-based interaction
+* User accounts and personalized study profiles
+
+---
+
+## 👨‍💻 Internship
+
+Developed as part of the **Innovation Hacks AI Internship — Week 1**.
+
+```
+```
